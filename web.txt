@@ -1,0 +1,9 @@
+**How does the internet work? What happens when you click on a link? **
+
+
+The url is split into 3 different components. the path, the name, and the protocol/schema (ie http).
+When you click on a link, on a high level, it makes a connection to the server. your system will construct a request to a DNS server.
+ To find the address. If youve never clicked on it before, the request is sent. If you have clicked it before, you might be able to skip that. 
+After you get your response, you now know what address you have to send packets to with over that connection. 
+You can then send a request. Your browser will interpret the response, and start rendering the page. 
+
